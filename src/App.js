@@ -50,10 +50,10 @@ class App extends Component {
               size: 40,
             },
             push: {
-              quantity: 1,
+              quantity: 10,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
           },
@@ -70,15 +70,15 @@ class App extends Component {
             width: 1,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             direction: "none",
             enable: true,
             outMode: "bounce",
-            random: true,
-            speed: 2,
-            straight: false,
+            random: false,
+            speed: 1,
+            straight: true,
           },
           number: {
             density: {
@@ -95,7 +95,7 @@ class App extends Component {
           },
           size: {
             random: true,
-            value: 5,
+            value: 10,
           },
         },
         detectRetina: true,
